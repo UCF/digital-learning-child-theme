@@ -1,0 +1,8 @@
+{
+    "name": "ucf/digital-learning-child-theme",
+    "description": "A child theme for the UCF Digital Learning WordPress theme.",
+    "type": "wordpress-theme",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}
