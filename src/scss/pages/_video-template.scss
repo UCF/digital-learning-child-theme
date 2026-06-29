@@ -1,0 +1,22 @@
+// Ported from Main-Site-Theme/src/scss/pages/_video-template.scss
+.video-template-content {
+  margin-top: 4rem;
+  position: relative;
+  z-index: 1;
+}
+
+.page-template-template-video {
+  .header-content-inner {
+    .font-condensed {
+      font-family: $font-family-condensed;
+      // sass-lint:disable no-important
+      font-weight: 400 !important;
+      letter-spacing: .005em !important;
+      // sass-lint:enable no-important
+    }
+  }
+
+  .header-video-embed {
+    margin-bottom: -4rem;
+  }
+}
