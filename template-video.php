@@ -71,6 +71,7 @@ $additional_content = get_field( 'video_additional_content', $post->ID );
 			<?php endif; ?>
 		</div>
 	</div>
+</div>
 <?php if ( $additional_content ) : ?>
 	<?php echo $additional_content; ?>
 <?php endif; ?>
